@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Programming Languages</title>
+    <meta name="description" content="programming languages" />
+    <meta name="keywords" content="programming languages,java,php,html,c, kotlin" />
+    <link rel="stylesheet" type="text/css" href="style/style2.css" title="style" />
+</head>
+
+<body >
+  <div id="main">
+      <div id="header">
+          <div id="logo">
+              <div id="logo_text">
+                  <h1><a style="color :aliceblue" href="index.html">Programming<span class="logo_colour">Languages</span></a></h1>
+                  <h2 style="color :aquamarine">&#60;Hello World/&#62;</h2>
+              </div>
+          </div>
+          <div id="menubar">
+              <ul id="menu">
+
+                  <li><a href="index.html">Home</a></li>
+                  <li class="selected"><a href="classification.html">classification</a></li>
+                  <li><a href="popular.html">popular</a></li>
+                  <li><a href="companies.html">companies</a></li>
+                  <li><a href="salaries.html">salaries</a></li>
+              </ul>
+          </div>
+      </div>
+    <div id="site_content">
+        <div class="sidebar">
+            <img src="style/pic1.jpg"/>
+            <h3>Useful Links to learn programming</h3>
+            <ul>
+                <li><a href="https://www.codecademy.com/">codecademy</a></li>
+                <li><a href="https://www.udacity.com/">Udacity</a></li>
+                <li><a href="https://www.hackerrank.com/">Hacker rank</a></li>
+                <li><a href="https://www.w3schools.com/">w3schools</a></li>
+            </ul>
+        </div>
+      <div id="content">
+        <h3>Classificaton of Programming languages</h3>
+        <p>
+            Each programming language contains a unique set of keywords and syntax, which are used to create a set of instructions. Thousands of programming languages have been developed till now, but each language has its specific purpose. These languages vary in the level of abstraction they provide from the hardware. Some programming languages provide less or no abstraction while some provide higher abstraction. Based on the levels of abstraction, they can be classified into two categories:
+            <br />•Low level language
+           <br /> •High level language
+           <br /> The image which is given below describes the abstraction level from hardware. As we can observe from the below image that the machine language provides no abstraction, assembly language provides less abstraction whereas high-level language provides a higher level of abstraction
+        </p>
+          
+          <img src="style/f2.png" alt="classification of programming languages"/>
+          <hr />
+         <h4 style="color:#0e1d8b ";>•low-level language</h4>
+          <p>The low-level language is a programming language that provides no abstraction from the hardware, and it is represented in 0 or 1 forms, which are the machine instructions. The languages that come under this category are the Machine level language and Assembly language.</p>
+          <h4 style="color:#0e1d8b";>•Machine level language</h4>
+          <p>
+              The machine-level language is a language that consists of a set of instructions that are in the binary form 0 or 1. As we know that computers can understand only machine instructions, which are in binary digits, i.e., 0 and 1, so the instructions given to the computer can be only in binary codes. Creating a program in a machine-level language is a very difficult task as it is not easy for the programmers to write the program in machine instructions. It is error-prone as it is not easy to understand, and its maintenance is also very high. A machine-level language is not portable as each computer has its machine instructions, so if we write a program in one computer will no longer be valid in another computer.
+
+           <br />The different processor architectures use different machine codes, for example, a PowerPC processor contains RISC architecture, which requires different code than intel x86 processor, which has a CISC architecture.
+          </p>
+          <h4 style="color:#0e1d8b ";>•Assembly level language</h4>
+          <p>
+              The assembly language contains some human-readable commands such as mov, add, sub, etc. The problems which we were facing in machine-level language are reduced to some extent by using an extended form of machine-level language known as assembly language. Since assembly language instructions are written in English words like mov, add, sub, so it is easier to write and understand.
+
+              <br />As we know that computers can only understand the machine-level instructions, so we require a translator that converts the assembly code into machine code. The translator used for translating the code is known as an assembler.
+
+              <br />The assembly language code is not portable because the data is stored in computer registers, and the computer has to know the different sets of registers.
+
+              <br />The assembly code is not faster than machine code because the assembly language comes above the machine language in the hierarchy, so it means that assembly language has some abstraction from the hardware while machine language has zero abstraction.
+          </p>
+          <h4 style="color:#0e1d8b">•high-level Languages</h4>
+          <p>
+              The high-level language is a programming language that allows a programmer to write the programs which are independent of a particular type of computer. The high-level languages are considered as high-level because they are closer to human languages than machine-level languages.
+
+             <br /> When writing a program in a high-level language, then the whole attention needs to be paid to the logic of the problem.
+
+              <br />A compiler is required to translate a high-level language into a low-level language.</p>
+
+              <h4>Advantages of a high-level language</h4> 
+
+            <p>  1-The high-level language is easy to read, write, and maintain as it is written in English like words.
+                <br />2-The high-level languages are designed to overcome the limitation of low-level language, i.e., portability. The high-level language is portable; i.e., these languages are machine-independent.
+          </p>
+          
+        
+        
+            <h2 style="color : black">Differences between Low-Level language and High-Level language</h2>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Low-level language</th><th>High-Level Languages</th></tr>
+          <tr><td>It is a machine-friendly language, i.e., the computer understands the machine language, which is represented in 0 or 1.</td><td>It is a user-friendly language as this language is written in simple English words, which can be easily understood by humans.</td></tr>
+          <tr><td>The low-level language takes more time to execute.</td><td>It executes at a faster pace</td></tr>
+          <tr><td>It requires the assembler to convert the assembly code into machine code.</td><td>It requires the compiler to convert the high-level language instructions into machine code.</td></tr>
+          <tr><td>The machine code cannot run on all machines, so it is not a portable language.</td><td>The high-level code can run all the platforms, so it is a portable language./td></tr>
+          <tr><td>It is memory efficient.</td><td>It is less memory efficient.</td></tr>
+          <tr><td>Debugging and maintenance are not easier in a low-level language.</td><td>Debugging and maintenance are easier in a high-level language.</td></tr>
+        </table>
+          <p>(ref by : <a href="https://www.javatpoint.com/classification-of-programming-languages">javaTpoint</a> })</p>
+        
+        
+      </div>
+    </div>
+    <div id="footer">
+        designed by Tarek Mohamed &copy; Programming Languages | tarek195482@feng.bu.edu.eg | +201001742075
+    </div>
+  </div>
+</body>
+</html>
